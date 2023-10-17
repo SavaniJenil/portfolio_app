@@ -48,14 +48,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-2 text-secondary text-[17px] max-w-7xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        As a React developer and web developer, I possess a strong command of
+        TypeScript, JavaScript, and the power of cutting-edge frameworks like
+        React and Node.js. My passion lies in crafting responsive web designs
+        and user interfaces that not only captivate but also deliver on 
+        real-world challenges. With proficiency in Tailwind CSS, I'm dedicated
+        to creating efficient, scalable, and visually pleasing solutions. Let's
+        collaborate and transform your ideas into reality!
       </motion.p>
 
-      <div className='mt-12 flex flex-wrap gap-10'>
+      <div className='mt-12 flex flex-wrap gap-10 justify-center'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

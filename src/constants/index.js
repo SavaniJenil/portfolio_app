@@ -15,10 +15,8 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    highsense,
+    solera,
     threejs,
     delishio,
     netflixGpt,
@@ -48,14 +46,6 @@ import {
     {
       title: "React Developer",
       icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
     },
   ];
   
@@ -105,10 +95,6 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
       name: "docker",
       icon: docker,
     },
@@ -116,55 +102,29 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Intern (React.js)",
+      company_name: "Highsense Infotech",
+      icon: highsense,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jan 2022 - April 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Ensuring optimal performance of web applications by implementing best practices such as lazy loading, code splitting, and efficient data fetching in React.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Associate Software Engineer",
+      company_name: "Solera",
+      icon: solera,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Aug 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing and maintaining desktop applications using VB.NET and C# .NET, ensuring they meet the specified requirements and functionality.",
+        "Collaborating closely with the development team, including QA testers and other developers, to identify and resolve bugs, implement enhancements, and ensure the overall quality of product.",
+        "Utilizing APIs to integrate external services, functionalities, and data into desktop app, enhancing its capabilities and improving user experience.",
+        "Maintaining code quality and following best practices in software development to ensure the reliability and maintainability of product.",
       ],
     },
   ];
@@ -172,7 +132,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+        "I thought it was impossible to make a website as beautiful as our product, but Jenil proved me wrong.",
       name: "Sara Lee",
       designation: "CFO",
       company: "Acme Co",
@@ -180,7 +140,7 @@ import {
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        "I've never met a web developer who truly cares about their clients' success like Jenil does.",
       name: "Chris Brown",
       designation: "COO",
       company: "DEF Corp",
@@ -188,7 +148,7 @@ import {
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "After Jenil optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",
@@ -212,7 +172,7 @@ import {
         },
       ],
       image: delishio,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/SavaniJenil/react_learning/tree/dev",
     },
     {
       name: "Netflix GPT",
@@ -229,7 +189,7 @@ import {
         },
       ],
       image: netflixGpt,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/SavaniJenil/netflix-gpt/tree/dev",
     },
     {
       name: "Watch Nest",
@@ -250,7 +210,7 @@ import {
         },
       ],
       image: watchNest,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/SavaniJenil/watch-nest/tree/dev",
     },
   ];
   
