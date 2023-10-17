@@ -21,10 +21,8 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import highsense from "./company/highsense.png";
+import solera from "./company/solera.jpg";
 
 import delishio from "./Delishio.png";
 import netflixGpt from "./netflixGpt.png";
@@ -52,10 +50,8 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  highsense,
+  solera,
   delishio,
   netflixGpt,
   watchNest,
