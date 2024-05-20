@@ -20,15 +20,20 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import vbdn from "./tech/vb.png";
+import styledComponent from "./tech/scom.png";
+import CSharp from "./tech/cSharp.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import highsense from "./company/highsense.jpg";
+import solera from "./company/solera.png";
 
-import delishio from "./Delishio.png";
-import netflixGpt from "./netflixGpt.png";
-import watchNest from "./watchNest.png";
+import delishio from "./Delishio.jpeg";
+import netflixGpt from "./netflixGpt.jpeg";
+import watchNest from "./watchNest.jpeg";
 
 export {
   logo,
@@ -57,4 +62,9 @@ export {
   delishio,
   netflixGpt,
   watchNest,
+  highsense,
+  solera,
+  vbdn,
+  CSharp,
+  styledComponent
 };
