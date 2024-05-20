@@ -25,7 +25,13 @@ const ProjectCard = ({
         }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
-        <div className="relative w-full h-[230px]">
+        <div className="relative w-full h-[230px]" onClick={() => {
+                try {
+                    window.open(source_code_link, '_blank');
+                } catch (error) {
+                    console.error('Failed to open link:', error);
+                }
+            }}>
           <img
             src={image}
             alt={name}
@@ -33,7 +39,13 @@ const ProjectCard = ({
           />
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
-              onClick={() => window.open(source_code_link, "_blank")}
+              onClick={() => {
+                try {
+                    window.open(source_code_link, '_blank');
+                } catch (error) {
+                    console.error('Failed to open link:', error);
+                }
+            }}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
@@ -70,13 +82,13 @@ const Works = () => {
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leadding-[30px]"
+          className="mt-3 text-secondary text-[17px] text-justify max-w-7xl leadding-[30px]"
         >
           The projects below exemplify my skills and expertise by showcasing real-world applications of my work. Each project is briefly described, providing links to their code repositories and live demos, demonstrating my proficiency in problem-solving, versatility with various technologies, and effective project management.
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-20 flex flex-wrap justify-center gap-7">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

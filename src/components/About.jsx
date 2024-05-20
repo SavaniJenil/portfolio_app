@@ -46,18 +46,11 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-2 text-secondary text-[17px] max-w-7xl leading-[30px]'
+        className='mt-2 text-secondary text-[17px] max-w-7xl text-justify leading-[30px]'
       >
-        As a React developer and web developer, I possess a strong command of
-        TypeScript, JavaScript, and the power of cutting-edge frameworks like
-        React and Node.js. My passion lies in crafting responsive web designs
-        and user interfaces that not only captivate but also deliver on 
-        real-world challenges. With proficiency in Tailwind CSS, I'm dedicated
-        to creating efficient, scalable, and visually pleasing solutions. Let's
-        collaborate and transform your ideas into reality!
-      </motion.p>
+    "I'm a skilled software developer proficient in React, Tailwind CSS, and Styled Components, with some knowledge of Node.js and TypeScript. I build visually appealing, responsive web applications and work closely with clients to deliver efficient, user-friendly solutions. Let's collaborate to bring your web projects to life with modern technologies and innovative design!"      </motion.p>
 
-      <div className='mt-12 flex flex-wrap gap-10 justify-center'>
+      <div className='mt-12 flex flex-wrap justify-center gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

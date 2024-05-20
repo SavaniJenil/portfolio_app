@@ -19,7 +19,9 @@ const ExperienceCard = ({ experience }) => (
         <img
           src={experience.icon}
           alt={experience.company_name}
-          className="w-[60%] h-[60%] object-contain rounded-full"
+          className={experience.company_name === 'HighSense Infotech' || 'Solera'
+            ? "w-[100%] h-[100%] object-contain border rounded-full"
+            : "w-[60%] h-[60%] object-contain"}
         />
       </div>
     }
@@ -38,7 +40,7 @@ const ExperienceCard = ({ experience }) => (
         {experience.points.map((point, index) => (
           <li
             key={`experience-point-${index}`}
-            className='text-white-100 text-[14px] pl-1 tracking-wider'
+            className='text-white-100 text-[14px] text-justify pl-1 tracking-wider'
           >
             {point}
           </li>
