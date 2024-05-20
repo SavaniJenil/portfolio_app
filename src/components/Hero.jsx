@@ -19,17 +19,15 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915fff]">Jenil</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          I create dynamic, responsive web <br className="xs:block hidden" />{" "}
-          applications using React and <br className="xs:block hidden" />{" "}
-          optimize software using <br className="xs:block hidden" />{" "}
-          VB.NET and C#.
+            I develop Websites, 3D visuals <br className="xs:block hidden" />{" "}
+            and user interfaces using React.
           </p>
         </div>
       </div>
 
       <ComputersCanvas />
 
-      <div className='absolute md:bottom-5 bottom-0 w-full flex justify-center items-center'>
+      <div className='absolute xs:bottom-7 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div
