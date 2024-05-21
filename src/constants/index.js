@@ -227,7 +227,8 @@ import {
         },
       ],
       image: delishio,
-      source_code_link: "https://github.com/SavaniJenil/react_learning/tree/dev",
+      source_code_link: "https://github.com/SavaniJenil/react_learning.git",
+      project_url: "https://delishio.netlify.app/",
     },
     {
       name: "Netflix GPT",
@@ -244,7 +245,7 @@ import {
         },
       ],
       image: netflixGpt,
-      source_code_link: 'https://github.com/SavaniJenil/netflix-gpt/tree/dev',
+      source_code_link: 'https://github.com/SavaniJenil/netflix-gpt.git',
     },
     {
       name: "Watch Nest",
@@ -265,7 +266,7 @@ import {
         },
       ],
       image: watchNest,
-      source_code_link: "https://github.com/SavaniJenil/watch-nest/tree/dev",
+      source_code_link: "https://github.com/SavaniJenil/watch-nest.git",
     },
   ];
   
