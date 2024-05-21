@@ -21,8 +21,6 @@ import {
     delishio,
     netflixGpt,
     watchNest,
-    highsense,
-    solera,
     vbdn,
     CSharp,
     styledComponent,
