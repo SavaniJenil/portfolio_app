@@ -62,8 +62,8 @@ export {
   delishio,
   netflixGpt,
   watchNest,
-  highsense,
-  solera,
+  // highsense,
+  // solera,
   vbdn,
   CSharp,
   styledComponent
