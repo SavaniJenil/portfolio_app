@@ -19,7 +19,7 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import threejs from "./tech/threejs.png";
 import vbdn from "./tech/vb.png";
 import styledComponent from "./tech/scom.png";
 import CSharp from "./tech/cSharp.png";
@@ -31,9 +31,14 @@ import tesla from "./company/tesla.png";
 import highsense from "./company/highsense.jpg";
 import solera from "./company/solera.png";
 
-import delishio from "./Delishio.jpeg";
-import netflixGpt from "./netflixGpt.jpeg";
-import watchNest from "./watchNest.jpeg";
+import delishio from "./delishio.png";
+import netflixGpt from "./netflixGpt.png";
+import watchNest from "./watchNest.png";
+import foodMania from "./foodMania.png";
+import elegantCloths from "./elegantCloth3.png";
+import placePicker from "./placePicker.png";
+import Andrew from "./AND.png";
+import Jesus from "./Jesus.jpg"
 
 export {
   logo,
@@ -64,5 +69,10 @@ export {
   watchNest,
   vbdn,
   CSharp,
-  styledComponent
+  styledComponent,
+  foodMania,
+  elegantCloths,
+  placePicker,
+  Andrew,
+  Jesus
 };

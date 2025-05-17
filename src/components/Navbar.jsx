@@ -34,7 +34,16 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}
             >
-              <a href={`#${link.id}`}>{link.title}</a>
+              <a
+                    href={
+                      link.title !== "Resume"
+                        ? `#${link.id}`
+                        : 
+                        `https://drive.google.com/file/d/1gUOaF8tR12mfiaZ5f4A7OxF7nfO5n3WU/view?usp=sharing`
+                    }
+                    target={link.title === "Resume" ? "_blank" : "_self"}
+                    // rel={link.title === "Resume" ? "noopener noreferrer" : ""}
+                  >{link.title}</a>
             </li>
           ))}
         </ul>
@@ -48,23 +57,38 @@ const Navbar = () => {
               setToggle(!toggle);
             }}
           />
-          <div className={`${!toggle ? "hidden" : "flex"} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[120px] z-10 rounded-xl`}>
-          <ul className="list-none flex justify-end items-start flex-col gap-4">
-          {navLinks.map((link) => (
-            <li
-              key={link.id}
-              className={`${
-                active === link.title ? "text-white" : "text-secondary"
-              } font-poppins font-medium cursor-pointer text-[12px]`}
-              onClick={() => {
-                setActive(link.title);
-                setToggle(!toggle);
-              }}
-            >
-              <a href={`#${link.id}`}>{link.title}</a>
-            </li>
-          ))}
-        </ul>
+          <div
+            className={`${
+              !toggle ? "hidden" : "flex"
+            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[120px] z-10 rounded-xl`}
+          >
+            <ul className="list-none flex justify-end items-start flex-col gap-4">
+              {navLinks.map((link) => (
+                <li
+                  key={link.id}
+                  className={`${
+                    active === link.title ? "text-white" : "text-secondary"
+                  } font-poppins font-medium cursor-pointer text-[12px]`}
+                  onClick={() => {
+                    setActive(link.title);
+                    setToggle(!toggle);
+                  }}
+                >               
+                  <a
+                    href={
+                      link.title !== "Resume"
+                        ? `#${link.id}`
+                        : 
+                        `https://drive.google.com/file/d/1gUOaF8tR12mfiaZ5f4A7OxF7nfO5n3WU/view?usp=sharing`
+                    }
+                    target={link.title === "Resume" ? "blank" : "self"}
+                    rel={link.title === "Resume" ? "noopener noreferrer" : ""}
+                  >
+                    {link.title}
+                  </a>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>
